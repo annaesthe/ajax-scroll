@@ -76,10 +76,6 @@ function pobierzDane() {
 				var name = document.createElement("p");
 				document.body.appendChild(name);
 				name.innerHTML = "Name: " + jsonObj[i].name;
-                
-                var userName = document.createElement("p");
-				document.body.appendChild(userName);
-				userName.innerHTML = "Username: " + jsonObj[i].username;
 			
 				
 			}
